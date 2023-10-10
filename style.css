@@ -1,0 +1,63 @@
+/* Custom CSS for Assignment */
+
+/* Background color for the section */
+.container-fluid {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style for the page heading */
+h1 {
+    font-size: 36px; /* Adjust font size as needed */
+    margin: 20px 0;
+}
+
+/* Style for the navbar */
+.navbar {
+    margin-bottom: 0;
+    background-color: transparent; /* Remove background color */
+    border: none; /* Remove border */
+}
+
+.navbar-brand {
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold;
+}
+
+/* Style for the mobile menu button */
+.navbar-toggle {
+    background-color: #333; /* Button background color */
+}
+
+/* Style for the mobile menu icon bars */
+.navbar-toggle .icon-bar {
+    background-color: #fff; /* Icon bar color */
+}
+
+/* Style for the dropdown menu */
+.navbar-nav.visible-xs {
+    background-color: #333; /* Dropdown background color */
+    width: 100%; /* Take up the entire width */
+}
+
+.navbar-nav.visible-xs li {
+    text-align: center;
+}
+
+.navbar-nav.visible-xs a {
+    color: #fff; /* Dropdown link color */
+    font-size: 18px; /* Adjust font size as needed */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.navbar-nav.visible-xs a:hover {
+    background-color: #555; /* Hover background color */
+}
+
+/* Additional styling for the content section */
+.col-xs-12 {
+    background-color: #fff; /* Content section background color */
+    padding: 30px; /* Adjust padding as needed */
+    margin-top: 20px; /* Add space between heading and content */
+    border: 1px solid #ccc; /* Border for the content section */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
